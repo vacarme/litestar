@@ -28,6 +28,7 @@ one that prints ``"Hello, world!"``:
 .. literalinclude:: /examples/todo_app/hello_world.py
     :language: python
     :caption: ``app.py``
+    :linenos:
 
 
 Now save the contents of this example in a file called ``app.py`` and type

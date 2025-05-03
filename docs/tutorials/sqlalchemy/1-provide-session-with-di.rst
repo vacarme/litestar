@@ -11,7 +11,7 @@ handlers.
 .. literalinclude:: /examples/contrib/sqlalchemy/plugins/tutorial/full_app_with_session_di.py
     :language: python
     :linenos:
-    :emphasize-lines: 47-57,82-83,87-89,94-95,103
+    :emphasize-lines: 48-57,83,88,95,104
 
 In the previous example, the database session is created within each HTTP route handler function. In this script we use
 dependency injection to decouple creation of the session from the route handlers.
